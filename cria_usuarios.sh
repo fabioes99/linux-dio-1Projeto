@@ -32,5 +32,17 @@ passwd amanda
 passwd rogerio
 
 
+mkdir /adm
+chown root:GRP_ADM /adm
+chmod 770 /adm
+
+mkdir /ven
+chown root:GRP_VEN /ven
+chmod 770 /ven
+
+mkdir /sec
+chown root:GRP_SEC /sec
+chmod 770 /sec
+
 
 
